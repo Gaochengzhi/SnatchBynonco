@@ -1,6 +1,4 @@
-## [SnatchBynonco](https://github.com/Gaochengzhi/SnatchBynonco)
-
-## 佰能预约平台自助抢单
+## 佰能预约平台自助抢单 SnatchBynonco
 
 ## Introduction
 

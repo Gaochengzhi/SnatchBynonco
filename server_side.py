@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 # This will store the valid time list
-time_list = ["2023-12-20", "2023-12-21", "2023-12-22"]
+time_list = []
 
 
 def is_valid_datetime(dt_string):
@@ -163,4 +163,4 @@ def times():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5000)
