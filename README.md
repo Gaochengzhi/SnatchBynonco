@@ -26,7 +26,9 @@ The diagram shown illustrates a multi-component system designed for self-service
 
 ## Installation
 
-### 在远程服务器端:
+~~### 在远程服务器端:~~
+
+**目前的版本已经废弃这个功能，请直接在本地安装执行**
 
 ```shell
 pip3 install flask flask-cors
@@ -37,12 +39,12 @@ python3 install server_side.py
 
 下载油猴脚本，新建脚本，将`main.js` 内容添加进去
 
-进入预约界面，例如 [例子](http://dypt.ujs.edu.cn/console/appointment/AppointmentBoxContainer?id=e39418c7-53ed-44fa-9eab-c8852952d219) ，然后启动油猴脚本插件
+进入预约界面，例如 [例子](http://dypt.ujs.edu.cn/console/appointment/AppointmentBoxContainer?id=e39418c7-53ed-44fa-9eab-c8852952d219) ，然后启动油猴脚本插件等待
 
 ----
 
-## On the remote server side:
-
+~~### On the remote server side:~~
+**Current version already abandon this function please install it in the local machine**
 ```shell
 pip3 install flask flask-cors
 
