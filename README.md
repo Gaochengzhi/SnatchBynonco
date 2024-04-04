@@ -41,6 +41,17 @@ python3 install server_side.py
 
 进入预约界面，例如 [例子](http://dypt.ujs.edu.cn/console/appointment/AppointmentBoxContainer?id=e39418c7-53ed-44fa-9eab-c8852952d219) ，然后启动油猴脚本插件等待
 
+### 调整时间
+
+在 main.js line 34-38 
+```javascript
+backupDate.setDate(backupDate.getDate() + 3); // Add 3 days
+
+backupDate.setHours(21, 0, 0, 0); // Set the start time to 13:00:00
+
+for (var i = 0; i < 4; i++) { // set time interval to 4 block
+```
+
 ----
 
 ~~### On the remote server side:~~
